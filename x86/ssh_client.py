@@ -30,7 +30,7 @@ def bytes_count(finished,summary):
         print("\rfinished:%.2f%% speed:~B/s"%(100*finished/summary),end='')
     
 class ssh_client:
-    def __init__(self,ip="34.92.245.108",port=22,user="root",passwd="dxdst"):
+    def __init__(self,ip="127.0.0.1",port=22,user="root",passwd="123456"):
         try:
             self.ip=ip
             self.port=port
