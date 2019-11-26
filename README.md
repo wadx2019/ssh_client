@@ -13,3 +13,7 @@
 
 # Version
 - 0.6
+
+# About ansicon
+- originate from Jason Hood
+- [his github](https://github.com/wadx2019/ansicon)
