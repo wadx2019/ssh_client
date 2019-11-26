@@ -10,6 +10,7 @@ last_timestamp=None
 last_finshed=None
 dimension=None
 speed=None
+hundred=100
 def bytes_count(finished,summary):
     global last_timestamp,last_finshed,dimension,speed
     timestamp=time.time()
@@ -25,9 +26,9 @@ def bytes_count(finished,summary):
         last_finshed=finished
         last_timestamp=timestamp
     if speed:
-        print("\rfinished:%.2f%% speed:%.2f%s"%(100*finished/summary,speed,dimension),end='')
+        print("\rfinished:%.2f%% speed:%.2f%s"%(hundred*finished/summary,speed,dimension),end='')
     else:
-        print("\rfinished:%.2f%% speed:~B/s"%(100*finished/summary),end='')
+        print("\rfinished:%.2f%% speed:~B/s"%(hundred*finished/summary),end='')
     
 class ssh_client:
     def __init__(self,ip="127.0.0.1",port=22,user="root",passwd="123456"):
