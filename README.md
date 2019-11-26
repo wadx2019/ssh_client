@@ -1,5 +1,6 @@
 # ssh_client
-![](https://www.codacy.com/manual/wadx2019/ssh_client?utm_source=github.com&utm_medium=referral&utm_content=wadx2019/ssh_client&utm_campaign=Badge_Grade_Dashboard)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8fedc6c1ae0c4be5b7e37c290fca78a3)](https://www.codacy.com/manual/wadx2019/ssh_client?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=wadx2019/ssh_client&amp;utm_campaign=Badge_Grade)
 
 ## Profile
 
