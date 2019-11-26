@@ -5,7 +5,6 @@ Created on Fri Nov 22 20:39:05 2019
 """
 
 import paramiko as pa
-import os
 import time
 last_timestamp=None
 last_finshed=None
